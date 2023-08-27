@@ -1,0 +1,2422 @@
+[
+  {
+    "subscriber": [
+      {
+        "id": "2e131fd6-b3de-4728-9bd7-f760ce019c68",
+        "subscription_type": "Premium",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T13:13:16.629Z",
+        "subscription_end_date": "2023-08-26T06:10:22.928Z",
+        "created_at": "2023-08-26T17:10:51.753Z",
+        "updated_at": "2023-08-26T20:58:13.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "748f7d18-91bd-47c0-a473-eb903a45b4e4",
+        "subscription_type": "Basic",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T04:53:07.658Z",
+        "subscription_end_date": "2023-08-26T10:49:05.734Z",
+        "created_at": "2023-08-26T14:19:31.262Z",
+        "updated_at": "2023-08-26T10:43:06.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f7f3305-17e3-4415-bba4-cc8ab1b2c63e",
+        "subscription_type": "Pro",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-27T01:34:40.845Z",
+        "subscription_end_date": "2023-08-26T17:30:32.881Z",
+        "created_at": "2023-08-26T13:05:09.034Z",
+        "updated_at": "2023-08-26T08:17:13.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16338648-1d0d-4a4b-b164-ae0d5d4f5cc1",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T21:25:17.970Z",
+        "subscription_end_date": "2023-08-26T21:10:41.024Z",
+        "created_at": "2023-08-26T04:39:15.765Z",
+        "updated_at": "2023-08-26T14:13:17.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "572cec24-51d0-4bb0-a196-d9a6c038e615",
+        "subscription_type": "Trial",
+        "subscription_status": "Suspended",
+        "subscription_start_date": "2023-08-26T19:25:09.176Z",
+        "subscription_end_date": "2023-08-26T11:11:22.321Z",
+        "created_at": "2023-08-26T21:49:16.794Z",
+        "updated_at": "2023-08-26T15:01:45.656Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "fdaa1fed-e916-44a6-91f3-bc21a65b36a9",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T19:02:27.010Z",
+        "updated_at": "2023-08-26T22:19:37.637Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3a53b52-7740-4e11-b578-20600c9ca578",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T08:50:04.343Z",
+        "updated_at": "2023-08-26T05:17:12.857Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5205bbb0-3127-41bd-8afd-9cf22d363416",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T08:46:32.046Z",
+        "updated_at": "2023-08-26T17:30:36.793Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0dd2f1c-8d7a-424f-add2-7cc5f94f8ef6",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T14:08:00.952Z",
+        "updated_at": "2023-08-26T05:46:00.214Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a362d5bb-dc9e-41e5-a8c5-86f7b378da80",
+        "access_level": "Viewer",
+        "status": "Suspended",
+        "created_at": "2023-08-26T10:41:27.292Z",
+        "updated_at": "2023-08-26T17:27:51.945Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "6fab661f-017c-4567-8ef2-e11e5d4f4265",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-27T01:08:43.568Z",
+        "updated_at": "2023-08-26T08:57:26.998Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd1c0461-2ba9-4825-aa51-853ec6a451f4",
+        "access_level": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-26T11:15:09.205Z",
+        "updated_at": "2023-08-26T16:56:43.198Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf9b1526-b736-4229-94b0-69b4ba03fb82",
+        "access_level": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-08-26T15:57:22.032Z",
+        "updated_at": "2023-08-26T05:13:01.611Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5aea464c-ea87-4159-a504-ecb94b8eb582",
+        "access_level": "Operator",
+        "status": "Blocked",
+        "created_at": "2023-08-26T07:46:36.743Z",
+        "updated_at": "2023-08-26T11:32:13.812Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a14b6214-f0a9-4473-ba3d-3b0ebe596763",
+        "access_level": "Viewer",
+        "status": "Suspended",
+        "created_at": "2023-08-26T20:55:41.067Z",
+        "updated_at": "2023-08-26T01:57:28.828Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "9d814fe0-2c14-48aa-bd26-5d9bfc14b577",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-26T20:29:40.379Z",
+        "updated_at": "2023-08-26T08:55:22.095Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "f2aea2f2-c214-41bd-93e3-9e94850c5060",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T14:19:26.076Z",
+        "updated_at": "2023-08-26T05:35:07.264Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "ef51e141-3360-45f3-bd33-2f46933be90e",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T20:22:23.942Z",
+        "updated_at": "2023-08-27T00:57:58.883Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "c6c881a0-c529-4fac-9519-a7325e370b05",
+        "name": "Appify",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T09:42:34.844Z",
+        "updated_at": "2023-08-26T19:17:00.311Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "285775ee-0c9b-4db1-b31d-ae342ea09c56",
+        "name": "AppMaster",
+        "version": "5.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T14:45:43.324Z",
+        "updated_at": "2023-08-26T12:32:32.872Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "deae0c44-66a8-457d-831e-6c52eccd619f",
+        "email": "Elmer.Rice82@yahoo.com",
+        "firstName": "Felicity",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37431066",
+        "tenantId": null
+      },
+      {
+        "reference": "8a5d19d4-4bb6-469f-b9f0-a1be58cd6730",
+        "email": "Royce81@yahoo.com",
+        "firstName": "Godfrey",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/251.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d1850afc-4208-42f5-917c-47371d24643f",
+        "email": "Elmo_Dare99@hotmail.com",
+        "firstName": "Eldred",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/770.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0295048-a5f7-40a8-9abb-ee82a44fd232",
+        "email": "Roberto.Vandervort@yahoo.com",
+        "firstName": "Savanah",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/714.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94613168-d3ed-4730-a14c-cbf6ac6cac42",
+        "email": "Matilde_Gutkowski42@hotmail.com",
+        "firstName": "Dannie",
+        "lastName": "Roberts-Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86787055",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "881cfbad-5252-48d6-ad23-a257f2ea7eb3",
+        "subscription_type": "Premium",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T21:04:15.712Z",
+        "subscription_end_date": "2023-08-26T06:25:16.344Z",
+        "created_at": "2023-08-27T00:32:43.849Z",
+        "updated_at": "2023-08-26T15:47:26.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67438845-c5a4-48be-8470-c21a51b3f19f",
+        "subscription_type": "Basic",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T20:46:08.196Z",
+        "subscription_end_date": "2023-08-26T19:35:07.648Z",
+        "created_at": "2023-08-26T02:30:15.798Z",
+        "updated_at": "2023-08-26T22:07:31.455Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b16629df-2d07-48ee-ac79-9a7d66e507c1",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T16:57:16.236Z",
+        "subscription_end_date": "2023-08-26T20:19:55.988Z",
+        "created_at": "2023-08-26T16:18:04.385Z",
+        "updated_at": "2023-08-26T09:45:15.687Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dadf5f8-7cdb-487a-b7a9-100e0e3756af",
+        "subscription_type": "Pro",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T22:24:22.429Z",
+        "subscription_end_date": "2023-08-26T13:17:01.567Z",
+        "created_at": "2023-08-26T07:19:34.093Z",
+        "updated_at": "2023-08-26T12:19:20.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a85c82fd-4b05-47a1-a0aa-627f238587de",
+        "subscription_type": "Starter",
+        "subscription_status": "Suspended",
+        "subscription_start_date": "2023-08-26T12:02:28.880Z",
+        "subscription_end_date": "2023-08-26T21:08:28.222Z",
+        "created_at": "2023-08-26T07:33:53.520Z",
+        "updated_at": "2023-08-26T05:37:33.772Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "9813378c-b9d8-4949-9177-76d01ebfb187",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T09:10:50.326Z",
+        "updated_at": "2023-08-26T10:05:29.277Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62c42062-b648-4d32-a40b-b96cad5996fa",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T19:42:26.119Z",
+        "updated_at": "2023-08-26T10:45:23.982Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebd6275-f6bf-4b73-9f9d-b6f6e1aa5a6c",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T12:20:33.509Z",
+        "updated_at": "2023-08-26T14:43:33.273Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85e3e572-5de5-4578-b6e7-3447ae740c61",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T05:20:44.281Z",
+        "updated_at": "2023-08-26T06:16:43.452Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1934bffe-a2a8-4879-b857-bcd59128ff15",
+        "access_level": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-26T05:37:32.507Z",
+        "updated_at": "2023-08-26T04:27:07.971Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "87df9cb6-75ae-4dc6-8c75-febb8d36cb1a",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T10:58:26.811Z",
+        "updated_at": "2023-08-26T10:29:35.371Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f84806bb-8a1e-4ddf-942d-d294abe1dd25",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T20:54:48.176Z",
+        "updated_at": "2023-08-26T16:37:29.581Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "206abc88-b60e-4585-bc3f-2246e1499d82",
+        "access_level": "Support",
+        "status": "Pending",
+        "created_at": "2023-08-26T17:09:49.912Z",
+        "updated_at": "2023-08-26T03:41:08.884Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b30d2bb-fa87-4310-912a-0116ae926522",
+        "access_level": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-08-26T05:53:25.501Z",
+        "updated_at": "2023-08-26T16:58:46.439Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f688002c-7436-4ac0-80e7-1b4f01ce174a",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T05:52:54.632Z",
+        "updated_at": "2023-08-26T05:48:31.472Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "3a2e8fe0-68b8-4459-a6d4-1f89a8effdd4",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-26T20:25:34.396Z",
+        "updated_at": "2023-08-26T09:11:02.143Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "2ad5a2ec-5ecf-4e1f-9fb8-779b96a80861",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T11:42:33.518Z",
+        "updated_at": "2023-08-26T08:45:47.920Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "d6598d3a-ca77-4d8e-9150-4b9c435fd43f",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T06:57:44.012Z",
+        "updated_at": "2023-08-26T06:54:05.675Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "079e4164-b52c-42e4-bd86-996ade2fc861",
+        "name": "CoolApp",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T14:59:29.465Z",
+        "updated_at": "2023-08-26T17:47:45.168Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "e488d75c-4d45-4db3-89c2-4ddec55e408c",
+        "name": "AmazingApp",
+        "version": "5.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T15:06:59.140Z",
+        "updated_at": "2023-08-26T10:13:36.115Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19d11931-57a8-42b4-b1c2-00cca6e3d827",
+        "email": "Grant93@hotmail.com",
+        "firstName": "Reinhold",
+        "lastName": "Purdy-Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66074512",
+        "tenantId": null
+      },
+      {
+        "reference": "a6148281-7462-4a99-990c-7c7c8f296df5",
+        "email": "Grant.Roberts16@gmail.com",
+        "firstName": "Emely",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12729114",
+        "tenantId": null
+      },
+      {
+        "reference": "e9eb0acd-52ef-43db-b116-a362bc497a1f",
+        "email": "Telly_Schamberger66@hotmail.com",
+        "firstName": "Jewel",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17723039",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc51b59-256a-4baa-98d6-c833f01dfa74",
+        "email": "Wilhelmine26@gmail.com",
+        "firstName": "Queen",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86655032",
+        "tenantId": null
+      },
+      {
+        "reference": "c48a9165-8a0d-4081-b35a-dce6cde5bd22",
+        "email": "Lillian.Kertzmann@yahoo.com",
+        "firstName": "Fritz",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "448afbd2-c45f-4a75-abda-eab88d71e3c6",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-27T01:24:59.920Z",
+        "subscription_end_date": "2023-08-26T12:12:12.490Z",
+        "created_at": "2023-08-26T04:22:10.567Z",
+        "updated_at": "2023-08-26T13:57:18.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0363e9b6-1eb3-4834-be27-5a81231e741e",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T08:20:22.909Z",
+        "subscription_end_date": "2023-08-26T12:02:51.060Z",
+        "created_at": "2023-08-26T10:23:46.481Z",
+        "updated_at": "2023-08-26T07:05:12.921Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdc964d9-31a9-4229-9f3e-040c16551449",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T06:55:20.385Z",
+        "subscription_end_date": "2023-08-26T23:55:55.235Z",
+        "created_at": "2023-08-26T03:30:40.066Z",
+        "updated_at": "2023-08-26T08:24:06.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31dec401-e8e7-41ed-9ab0-6558d0899a8d",
+        "subscription_type": "Free",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T05:20:31.927Z",
+        "subscription_end_date": "2023-08-27T00:22:13.056Z",
+        "created_at": "2023-08-26T17:02:33.688Z",
+        "updated_at": "2023-08-26T02:04:37.490Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a51106bd-c4d9-463e-8e10-c2f86459cf00",
+        "subscription_type": "Trial",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-27T01:14:28.496Z",
+        "subscription_end_date": "2023-08-26T15:14:27.918Z",
+        "created_at": "2023-08-26T17:10:41.820Z",
+        "updated_at": "2023-08-26T05:58:03.665Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "25eed884-b8de-4444-872c-6d39cbfe69c9",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T14:31:53.775Z",
+        "updated_at": "2023-08-26T17:40:58.998Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd015464-e794-4f5e-be7d-c7213221f02a",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T13:44:10.638Z",
+        "updated_at": "2023-08-26T03:42:03.593Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6896055-2b6d-49e7-8d13-532baf4f7c9c",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T14:27:45.637Z",
+        "updated_at": "2023-08-27T00:23:58.883Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6071ac6e-0c19-4516-a086-06e9d493ef47",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T16:38:10.429Z",
+        "updated_at": "2023-08-26T10:26:13.697Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9dcaca8-9f96-43ae-9ce8-8e49b4fe0db1",
+        "access_level": "Viewer",
+        "status": "Suspended",
+        "created_at": "2023-08-26T20:54:10.264Z",
+        "updated_at": "2023-08-26T03:57:46.638Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "f320a6b6-08a3-4e9b-afab-9574980a265f",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T21:41:47.392Z",
+        "updated_at": "2023-08-26T22:57:13.604Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66fbf400-9bf6-4365-a0ec-007cebcb3472",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T12:21:23.572Z",
+        "updated_at": "2023-08-26T02:18:55.623Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b083678-137a-4630-8d76-9ab974e455b9",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T19:32:40.964Z",
+        "updated_at": "2023-08-27T01:38:02.587Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a2f2bc7-1085-4285-962b-815acd276250",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T19:15:52.623Z",
+        "updated_at": "2023-08-26T05:40:34.511Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e0345c3-323e-496d-824e-f74a8477c508",
+        "access_level": "Viewer",
+        "status": "Suspended",
+        "created_at": "2023-08-26T12:51:23.344Z",
+        "updated_at": "2023-08-26T22:01:33.584Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "51af307b-e85e-4208-a626-a25bcf904ffc",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Live",
+        "created_at": "2023-08-26T13:44:24.419Z",
+        "updated_at": "2023-08-26T14:31:18.125Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "0fda288a-3d77-489b-aae3-ccfc25fdde66",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Beta",
+        "created_at": "2023-08-26T12:44:48.799Z",
+        "updated_at": "2023-08-26T06:49:50.108Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "a7201ee4-f326-4106-8d9e-260b9ed9e16e",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Development",
+        "created_at": "2023-08-26T12:11:21.055Z",
+        "updated_at": "2023-08-26T15:26:17.317Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "9d5b885e-5924-4597-9ebc-5c363d91e4cd",
+        "name": "CoolApp",
+        "version": "4.0",
+        "status": "Archived",
+        "created_at": "2023-08-26T08:55:00.559Z",
+        "updated_at": "2023-08-26T19:32:37.169Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "ac40382e-5abe-4a66-bbb5-aea5919f206c",
+        "name": "AmazingApp",
+        "version": "5.0",
+        "status": "Maintenance",
+        "created_at": "2023-08-26T17:08:12.191Z",
+        "updated_at": "2023-08-26T20:17:31.815Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec53dd09-f9d3-453a-98bb-6e49b883d168",
+        "email": "Shemar_Osinski@gmail.com",
+        "firstName": "Antonette",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "768bf251-c5b2-46b4-bed2-dc12bca9aaba",
+        "email": "Clemmie_Baumbach11@hotmail.com",
+        "firstName": "Benton",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57756500",
+        "tenantId": null
+      },
+      {
+        "reference": "953e3448-9141-42aa-88f4-80bc1df531d1",
+        "email": "Rachel.Zboncak35@yahoo.com",
+        "firstName": "Teresa",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/819.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7856dab7-727a-454b-b96a-8b5a6b0d2c49",
+        "email": "Khalil_Predovic12@gmail.com",
+        "firstName": "Frieda",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27384706",
+        "tenantId": null
+      },
+      {
+        "reference": "e3676242-c112-4f38-a086-9eb725be81e4",
+        "email": "Ophelia_Zemlak@gmail.com",
+        "firstName": "Albert",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23369718",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "f0a8ae57-8734-4f88-afdb-42ecdf89bfa2",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-27T00:20:14.808Z",
+        "subscription_end_date": "2023-08-26T09:33:03.953Z",
+        "created_at": "2023-08-26T04:24:19.436Z",
+        "updated_at": "2023-08-26T09:04:26.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "356a142e-1e2c-4d2d-b31a-fee05452f57c",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T02:52:34.359Z",
+        "subscription_end_date": "2023-08-26T21:25:59.933Z",
+        "created_at": "2023-08-26T11:44:51.823Z",
+        "updated_at": "2023-08-26T21:21:03.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0218788-5660-4195-b1ac-ef4037d4019a",
+        "subscription_type": "Gold",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T23:36:48.676Z",
+        "subscription_end_date": "2023-08-26T08:45:05.585Z",
+        "created_at": "2023-08-26T23:31:39.566Z",
+        "updated_at": "2023-08-26T10:05:14.885Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db442f2e-2db6-4f11-a48a-bfaff708867f",
+        "subscription_type": "Silver",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T02:00:16.102Z",
+        "subscription_end_date": "2023-08-26T06:53:25.285Z",
+        "created_at": "2023-08-26T01:51:12.592Z",
+        "updated_at": "2023-08-26T05:35:46.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280e1917-1035-4fdb-98a9-f0b773b96881",
+        "subscription_type": "Platinum",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T17:35:27.876Z",
+        "subscription_end_date": "2023-08-26T10:04:19.510Z",
+        "created_at": "2023-08-26T04:27:20.865Z",
+        "updated_at": "2023-08-26T15:59:10.874Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "96f8dc91-4b22-46f0-ba45-91b981684112",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T06:56:20.264Z",
+        "updated_at": "2023-08-26T17:08:47.586Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99dc1644-e064-48c2-a4b8-f01d4952dc11",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T06:36:29.886Z",
+        "updated_at": "2023-08-26T01:53:52.900Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95534437-7261-40bf-b551-9548362ba323",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T06:49:31.118Z",
+        "updated_at": "2023-08-26T08:31:54.847Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9953ed9-14a7-4c9d-b737-22304e45a3cd",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T13:39:34.042Z",
+        "updated_at": "2023-08-26T14:47:48.352Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc01bef-4a51-47c4-968d-5dc457382c04",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T06:25:41.621Z",
+        "updated_at": "2023-08-26T04:43:01.509Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "22e22ff6-a205-49e8-8cb8-73077efb3a08",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T17:57:44.111Z",
+        "updated_at": "2023-08-26T21:51:05.095Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "386aa387-bf7b-4125-811e-dc00ddf4510c",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T11:34:41.186Z",
+        "updated_at": "2023-08-26T02:55:45.874Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35af36a6-e5d1-482b-a50e-d6912143dad7",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T05:08:13.732Z",
+        "updated_at": "2023-08-26T14:19:29.032Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "012e4722-87ab-4f66-8750-24dc681f0d5e",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T05:10:46.589Z",
+        "updated_at": "2023-08-26T05:05:51.134Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec71ca70-61e8-481d-8cb8-e0c518247ef7",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T06:44:32.014Z",
+        "updated_at": "2023-08-26T13:55:55.511Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "b1ef4bb9-8345-4e90-994f-5724b6152af3",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-26T10:21:55.118Z",
+        "updated_at": "2023-08-26T07:55:54.479Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "56a3c557-c4ca-4aaf-ac9c-bac909f1ce00",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T21:09:01.057Z",
+        "updated_at": "2023-08-26T03:46:50.953Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "bacec69f-3821-4f42-b004-cd89c72e30a9",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T06:13:17.246Z",
+        "updated_at": "2023-08-26T05:03:29.392Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "7e7d023a-bf11-4fca-8378-bb47c5a9b1f8",
+        "name": "CoolApp",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T03:29:51.648Z",
+        "updated_at": "2023-08-26T22:45:15.021Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "40dff64d-ca2e-4cc5-85d3-799d804aec88",
+        "name": "AmazingApp",
+        "version": "5.0",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-27T00:46:04.756Z",
+        "updated_at": "2023-08-26T21:25:15.404Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b0d0397-ee39-4328-b2a4-2057c5771ca5",
+        "email": "Consuelo59@hotmail.com",
+        "firstName": "Wava",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1232.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "549752e5-6ca1-46b4-8c7b-285d76799b13",
+        "email": "Jayde_Cronin@hotmail.com",
+        "firstName": "Aleen",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/366.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b4a9cd8-e68a-45a4-84a2-e82e9269089c",
+        "email": "Katheryn.Morar@hotmail.com",
+        "firstName": "Estefania",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8744ae81-07bd-4b60-addf-60d2c0074158",
+        "email": "Lyda73@hotmail.com",
+        "firstName": "Gerald",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76894255",
+        "tenantId": null
+      },
+      {
+        "reference": "85648981-ca8d-4e80-a7fc-8e68d1f7c78e",
+        "email": "Dock_Schumm41@yahoo.com",
+        "firstName": "Mason",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7556190",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "f216f5d9-c9b2-4d85-ac43-4490d829358a",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T19:18:37.745Z",
+        "subscription_end_date": "2023-08-26T03:14:04.483Z",
+        "created_at": "2023-08-26T15:07:00.750Z",
+        "updated_at": "2023-08-26T12:04:56.908Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fab46e9-894d-456a-8959-1ae1204f68aa",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T02:07:12.244Z",
+        "subscription_end_date": "2023-08-27T00:19:54.063Z",
+        "created_at": "2023-08-26T11:14:35.782Z",
+        "updated_at": "2023-08-26T11:17:27.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbc52656-81fe-4b0e-8563-d3bd5f5c169f",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T12:57:05.696Z",
+        "subscription_end_date": "2023-08-26T19:07:59.819Z",
+        "created_at": "2023-08-26T09:01:04.679Z",
+        "updated_at": "2023-08-26T14:25:48.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45b82c55-ca14-4e66-be5d-97bcc4f66f77",
+        "subscription_type": "Free",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T19:14:45.052Z",
+        "subscription_end_date": "2023-08-26T06:33:12.125Z",
+        "created_at": "2023-08-26T11:50:34.044Z",
+        "updated_at": "2023-08-27T01:14:39.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baf2cdb4-a253-4a21-9c9b-4e8cb65cfdd5",
+        "subscription_type": "Trial",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T21:09:43.208Z",
+        "subscription_end_date": "2023-08-26T19:03:55.801Z",
+        "created_at": "2023-08-26T21:14:19.401Z",
+        "updated_at": "2023-08-26T12:36:07.100Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "7521ae84-65c2-4ef0-8c14-777aec4fce6d",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T10:39:21.064Z",
+        "updated_at": "2023-08-26T22:55:34.549Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56068f64-3b14-491e-a6eb-83d059ca3555",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T11:06:57.316Z",
+        "updated_at": "2023-08-26T18:46:40.308Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afbcbb71-1601-47ce-9252-4b9acf34c322",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T13:37:04.102Z",
+        "updated_at": "2023-08-26T23:28:15.091Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27761e44-6e10-4687-8e73-11caa6fc3e46",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T03:34:08.989Z",
+        "updated_at": "2023-08-27T00:55:29.285Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f72dfdc-7f1e-483e-a162-e52b8013d9ff",
+        "access_level": "Guest",
+        "status": "Suspended",
+        "created_at": "2023-08-26T16:35:47.429Z",
+        "updated_at": "2023-08-26T11:16:42.300Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "908e51dc-d55a-4802-8b28-8059c058fcbf",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T08:57:09.840Z",
+        "updated_at": "2023-08-26T04:22:21.418Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8a9baf7-05f2-42d8-95b8-6c5d7b333d3c",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T04:38:58.998Z",
+        "updated_at": "2023-08-26T23:21:24.891Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7798a471-68cf-47f7-ac64-1621323a6eab",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T07:14:46.540Z",
+        "updated_at": "2023-08-26T20:48:01.840Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dd17e5e-b7e5-47b4-88db-7e20a16a8b77",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T04:25:00.781Z",
+        "updated_at": "2023-08-26T08:13:45.006Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d4f604b-adcd-411f-b85c-aa8a5b6cac55",
+        "access_level": "Guest",
+        "status": "Suspended",
+        "created_at": "2023-08-26T15:17:09.720Z",
+        "updated_at": "2023-08-26T08:37:23.012Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "49ddf9cc-b07a-4c19-9c58-4c98e5eef63d",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Live",
+        "created_at": "2023-08-26T02:20:38.559Z",
+        "updated_at": "2023-08-26T15:53:13.895Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "8aa708e0-6e63-499d-a77f-9815a1b53c78",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Beta",
+        "created_at": "2023-08-26T16:23:32.802Z",
+        "updated_at": "2023-08-26T08:39:59.620Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "9f2c636d-d34e-4cb3-b80a-e7f2c27e5b0b",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Development",
+        "created_at": "2023-08-26T04:33:51.434Z",
+        "updated_at": "2023-08-26T06:04:06.256Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "970dad14-1fec-4373-bb7a-4c1d47941257",
+        "name": "CoolApp",
+        "version": "4.0",
+        "status": "Archived",
+        "created_at": "2023-08-26T18:11:47.250Z",
+        "updated_at": "2023-08-26T09:15:08.283Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "e415cbac-2b28-463a-b3cb-1e4f7772d94a",
+        "name": "AmazingApp",
+        "version": "5.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T03:42:47.155Z",
+        "updated_at": "2023-08-26T02:54:53.930Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7698dd4-3927-4fdb-a703-e5d9d6ba971a",
+        "email": "Emory.Mayert12@yahoo.com",
+        "firstName": "Ellie",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95295454",
+        "tenantId": null
+      },
+      {
+        "reference": "2a0a6279-7fdf-4ad5-910a-325d818e2189",
+        "email": "Deja_Towne95@hotmail.com",
+        "firstName": "Alexander",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/62.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "755c6de9-d7e0-46c5-8b3b-6e5485b08bbb",
+        "email": "America.Hamill56@hotmail.com",
+        "firstName": "Freeman",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7d841ce-3502-4e5a-b7a7-866820c8857b",
+        "email": "Alessia_McLaughlin@gmail.com",
+        "firstName": "Jamey",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5119e4a9-d86c-4cdd-8e2c-9e832c24cbc6",
+        "email": "Kailyn_DuBuque@yahoo.com",
+        "firstName": "Giovani",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21902636",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "af9f7d93-1e0b-4127-b102-3478711ad609",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T10:34:35.039Z",
+        "subscription_end_date": "2023-08-26T08:05:32.184Z",
+        "created_at": "2023-08-26T21:47:11.037Z",
+        "updated_at": "2023-08-26T07:10:15.687Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9498cf72-e401-4d31-8689-d1b0c9a72682",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T08:07:26.665Z",
+        "subscription_end_date": "2023-08-26T16:15:58.079Z",
+        "created_at": "2023-08-26T15:59:48.570Z",
+        "updated_at": "2023-08-26T05:32:27.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb73243-ee48-40fe-b139-36ce1e5dd5b0",
+        "subscription_type": "Gold",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T10:36:38.978Z",
+        "subscription_end_date": "2023-08-26T08:35:56.857Z",
+        "created_at": "2023-08-26T07:19:10.223Z",
+        "updated_at": "2023-08-26T03:20:05.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b520302c-33bc-4489-8b71-d19fe7eb918f",
+        "subscription_type": "Silver",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T15:00:56.313Z",
+        "subscription_end_date": "2023-08-26T13:17:48.771Z",
+        "created_at": "2023-08-26T08:52:09.773Z",
+        "updated_at": "2023-08-26T19:06:46.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9698a20-5209-4c69-b369-45d90d0ad26c",
+        "subscription_type": "Platinum",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T15:22:23.684Z",
+        "subscription_end_date": "2023-08-26T17:47:55.149Z",
+        "created_at": "2023-08-26T09:01:40.431Z",
+        "updated_at": "2023-08-26T23:56:06.365Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "64da0204-7d33-4779-8f75-525c8d5e4fed",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T21:12:59.567Z",
+        "updated_at": "2023-08-26T06:59:46.493Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5cdfd4-6e48-4407-9210-547f4f1e4759",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T10:04:51.075Z",
+        "updated_at": "2023-08-26T16:41:35.310Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42e3e698-a6e4-4b3e-8974-2cbef4771bdb",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T11:07:19.089Z",
+        "updated_at": "2023-08-26T15:45:24.727Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea6e4e4c-3013-466d-a373-b44af0529249",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T16:57:53.086Z",
+        "updated_at": "2023-08-26T08:54:10.435Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46a4ab85-bf8e-4dd9-a0f5-ad43fce01430",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-27T01:03:05.666Z",
+        "updated_at": "2023-08-26T16:39:03.071Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "4c55be4b-812f-419a-b68c-5b0efe2ec74f",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T12:21:46.669Z",
+        "updated_at": "2023-08-26T16:36:10.004Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83af49d5-b344-4b17-8ccd-63254d8b9c83",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T16:29:17.727Z",
+        "updated_at": "2023-08-26T21:57:31.140Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d42a1f6-ff67-49ce-a353-aeae6ddab721",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T23:53:49.299Z",
+        "updated_at": "2023-08-26T10:52:05.416Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f891b5e-c082-40a7-996f-4576a5e97728",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T05:25:27.457Z",
+        "updated_at": "2023-08-26T20:31:17.097Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eee5aa53-d13b-4f0a-8b79-27519b431b78",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T10:12:58.379Z",
+        "updated_at": "2023-08-26T12:26:18.182Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "65a60254-06f7-474c-b3ff-704035d7c425",
+        "name": "App 1",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-26T09:01:11.316Z",
+        "updated_at": "2023-08-26T08:10:50.398Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "a5ca4141-126b-4c27-b152-69ccb4364db3",
+        "name": "App 2",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T03:54:05.242Z",
+        "updated_at": "2023-08-26T13:49:48.926Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "e5edde91-3067-4421-8665-d1dc1cf240c1",
+        "name": "App 3",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T12:36:28.808Z",
+        "updated_at": "2023-08-27T01:34:46.976Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "cde7fef4-0681-4256-851e-0fd8d49865e6",
+        "name": "App 4",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-27T00:07:05.366Z",
+        "updated_at": "2023-08-26T14:48:34.759Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "e5e22ba4-0057-4c85-a449-513df791cbd6",
+        "name": "App 5",
+        "version": "5.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T17:35:21.623Z",
+        "updated_at": "2023-08-27T00:06:23.837Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b0a6ab3-f48a-43be-8cbb-707b9fc5edfa",
+        "email": "Oral.Parker@hotmail.com",
+        "firstName": "Adrain",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7baa0dc2-72e9-4ee2-b7e4-07df8402b68d",
+        "email": "Laurianne_Reynolds47@gmail.com",
+        "firstName": "Pietro",
+        "lastName": "Weber-Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44201465-d307-406e-af24-9f507c723b8d",
+        "email": "Kip_Prosacco37@gmail.com",
+        "firstName": "Minerva",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/836.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d57a36de-a239-4fd7-aeda-29def12aa20e",
+        "email": "Kaylie41@hotmail.com",
+        "firstName": "Rocio",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58885247",
+        "tenantId": null
+      },
+      {
+        "reference": "60126123-878a-4fb6-a437-f661441fd341",
+        "email": "Floy_Harber@yahoo.com",
+        "firstName": "Kathryn",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "de319a5c-ea74-4264-bb0c-e9c34d8d5cb1",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T06:55:39.978Z",
+        "subscription_end_date": "2023-08-26T14:35:36.194Z",
+        "created_at": "2023-08-26T09:07:38.382Z",
+        "updated_at": "2023-08-26T14:11:49.193Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ce6025a-60e6-4c2a-b0cf-9350687ec23f",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T14:21:03.177Z",
+        "subscription_end_date": "2023-08-26T20:44:02.074Z",
+        "created_at": "2023-08-27T00:56:24.878Z",
+        "updated_at": "2023-08-26T23:31:36.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc76d4e7-7aeb-4a59-90f8-a13e6c6a838c",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T23:25:31.172Z",
+        "subscription_end_date": "2023-08-26T12:32:19.806Z",
+        "created_at": "2023-08-26T08:22:25.606Z",
+        "updated_at": "2023-08-26T14:28:01.133Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57b8f9f5-fab5-431f-9817-9933ca308171",
+        "subscription_type": "Trial",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T16:50:49.739Z",
+        "subscription_end_date": "2023-08-26T04:45:58.201Z",
+        "created_at": "2023-08-27T01:28:13.184Z",
+        "updated_at": "2023-08-26T16:45:32.724Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d506a564-1300-45d2-8ab7-2237c795ebff",
+        "subscription_type": "Free",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T05:54:40.810Z",
+        "subscription_end_date": "2023-08-26T04:03:44.999Z",
+        "created_at": "2023-08-26T09:42:40.154Z",
+        "updated_at": "2023-08-26T16:30:55.516Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "97f2ac30-7fef-49b2-bbff-249c53bba36d",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T04:42:37.829Z",
+        "updated_at": "2023-08-26T18:51:47.536Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bffcec9d-8dbb-4366-9f63-ad45fd9e0b11",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T16:29:52.382Z",
+        "updated_at": "2023-08-26T22:46:29.337Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1e55f90-ae66-4441-b37b-3b00dc02cca1",
+        "access_level": "Manager",
+        "status": "Pending",
+        "created_at": "2023-08-26T04:05:14.621Z",
+        "updated_at": "2023-08-26T14:10:30.850Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff305aa-2d18-45dc-9ec2-c09f54d809d2",
+        "access_level": "Tester",
+        "status": "Blocked",
+        "created_at": "2023-08-26T22:57:39.847Z",
+        "updated_at": "2023-08-26T14:16:01.883Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c750358-6e78-475b-8f92-8d77616c71e4",
+        "access_level": "Support",
+        "status": "Suspended",
+        "created_at": "2023-08-26T15:16:17.742Z",
+        "updated_at": "2023-08-27T01:14:57.170Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "50404700-527f-47d5-847f-b43d06e80891",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T21:23:32.923Z",
+        "updated_at": "2023-08-26T01:59:25.600Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbc04392-4b1f-4d19-9655-a2113e577dbc",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T17:12:31.421Z",
+        "updated_at": "2023-08-26T05:28:13.512Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56fcc371-7c8b-469a-9460-6390360961cc",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T05:56:02.275Z",
+        "updated_at": "2023-08-26T12:29:15.657Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89eba21e-a109-4b46-811c-730feea8aaad",
+        "access_level": "Viewer",
+        "status": "Blocked",
+        "created_at": "2023-08-26T12:57:14.350Z",
+        "updated_at": "2023-08-26T08:41:53.548Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5ef461-3ced-4ff4-9c3c-982652e5c2a3",
+        "access_level": "Support",
+        "status": "Suspended",
+        "created_at": "2023-08-26T13:38:34.125Z",
+        "updated_at": "2023-08-26T08:56:44.643Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "f0af662a-0142-4e31-9f68-0ccd36bbf303",
+        "name": "App 1",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-26T11:25:09.152Z",
+        "updated_at": "2023-08-26T02:43:14.345Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "a16a3bd0-d01c-4f13-b849-f0c2ee3d7352",
+        "name": "App 2",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T17:11:15.633Z",
+        "updated_at": "2023-08-26T02:23:38.213Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "53bc908e-a7ee-4544-96e2-577cdabdeaff",
+        "name": "App 3",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T07:36:02.684Z",
+        "updated_at": "2023-08-26T01:55:30.154Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "e4a99852-806b-4422-9370-8a49e35d839d",
+        "name": "App 4",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T17:55:08.566Z",
+        "updated_at": "2023-08-26T22:48:55.249Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "28b910f3-560b-42e0-a0ac-059c4e875804",
+        "name": "App 5",
+        "version": "5.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T07:09:31.928Z",
+        "updated_at": "2023-08-26T09:37:04.198Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a16d4655-065a-4f27-9bff-95db81bfb435",
+        "email": "Tobin.Jacobi@gmail.com",
+        "firstName": "Gwendolyn",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/491.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca3b4d2c-ddc1-43ce-9e68-8ef2e1ab7a24",
+        "email": "Jacey_Gleichner@gmail.com",
+        "firstName": "Ivory",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33943880",
+        "tenantId": null
+      },
+      {
+        "reference": "68f149a6-761b-453b-825f-4abb4d053610",
+        "email": "Sebastian66@gmail.com",
+        "firstName": "Fiona",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7887c9a6-7cf8-41b2-9496-6f6752c8d850",
+        "email": "Lacy_Schuster@hotmail.com",
+        "firstName": "Porter",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54100905",
+        "tenantId": null
+      },
+      {
+        "reference": "acafd782-7242-4686-a9e2-2e4ca8ed1d8f",
+        "email": "Rosalee_Purdy@yahoo.com",
+        "firstName": "Mayra",
+        "lastName": "Marvin-Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "566f2c2f-d96e-472a-b270-3ee055360f9b",
+        "subscription_type": "Premium",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T11:49:18.331Z",
+        "subscription_end_date": "2023-08-26T09:09:07.907Z",
+        "created_at": "2023-08-26T13:45:29.348Z",
+        "updated_at": "2023-08-26T23:59:32.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "238cb365-5ec6-4db0-93ed-4a75124e3d28",
+        "subscription_type": "Basic",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T20:39:43.991Z",
+        "subscription_end_date": "2023-08-26T20:11:12.980Z",
+        "created_at": "2023-08-26T04:24:44.838Z",
+        "updated_at": "2023-08-26T04:31:48.395Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7ab95b4-8ad7-493c-b8fe-598f14d51bc5",
+        "subscription_type": "Gold",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T19:01:51.954Z",
+        "subscription_end_date": "2023-08-26T13:11:22.599Z",
+        "created_at": "2023-08-26T10:26:54.604Z",
+        "updated_at": "2023-08-26T15:25:14.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68cc2cb5-e260-468f-b05d-a00b0a19c3d4",
+        "subscription_type": "Silver",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T18:02:10.367Z",
+        "subscription_end_date": "2023-08-26T12:37:28.189Z",
+        "created_at": "2023-08-26T08:18:54.684Z",
+        "updated_at": "2023-08-26T08:08:45.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c28ad275-d931-4cb0-8646-5b0d86d61cac",
+        "subscription_type": "Platinum",
+        "subscription_status": "Suspended",
+        "subscription_start_date": "2023-08-26T19:26:57.369Z",
+        "subscription_end_date": "2023-08-26T12:17:21.076Z",
+        "created_at": "2023-08-26T22:17:42.479Z",
+        "updated_at": "2023-08-26T15:03:35.565Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "a64115e5-0422-4940-b27e-69980d2b4176",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T19:09:40.589Z",
+        "updated_at": "2023-08-26T23:41:51.202Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9163ef02-9b52-44b8-ab4e-cd8b2f60d4c2",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T04:19:05.936Z",
+        "updated_at": "2023-08-26T11:16:00.430Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c53014ef-4d6a-4240-8a74-b8538209cc07",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T13:04:18.899Z",
+        "updated_at": "2023-08-26T17:31:30.649Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "192b4e1b-595f-4656-a91a-6043661901df",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T12:02:22.160Z",
+        "updated_at": "2023-08-26T10:53:30.716Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cab0b286-a511-44d2-a27a-7a9542e227e9",
+        "access_level": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-26T19:54:44.777Z",
+        "updated_at": "2023-08-26T18:13:11.262Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "3435691f-7856-420e-b307-88b14db77744",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T12:39:43.323Z",
+        "updated_at": "2023-08-26T15:59:50.345Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd89cfc-8fd9-4e0b-adff-e03a2f8e1898",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T13:08:05.692Z",
+        "updated_at": "2023-08-26T11:49:25.702Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b802755-77d4-4a51-b85b-6c309adaef20",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-27T01:13:22.547Z",
+        "updated_at": "2023-08-26T05:21:45.342Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5faa744b-7b0e-492d-9f7d-fc92a72266c2",
+        "access_level": "Viewer",
+        "status": "Blocked",
+        "created_at": "2023-08-26T11:19:44.001Z",
+        "updated_at": "2023-08-26T06:10:08.782Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87cc39b5-c407-4e62-b4b9-95d5c543b92e",
+        "access_level": "Guest",
+        "status": "Suspended",
+        "created_at": "2023-08-26T02:53:13.118Z",
+        "updated_at": "2023-08-26T02:50:15.176Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "ecaef3e3-4467-42c9-8be9-ba34b7a57e57",
+        "name": "MyApp",
+        "version": "1.0",
+        "status": "Live",
+        "created_at": "2023-08-26T04:20:27.290Z",
+        "updated_at": "2023-08-26T02:02:10.805Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "ed2b2989-a99b-46dd-a7a5-a80ef54c58cd",
+        "name": "AwesomeApp",
+        "version": "2.0",
+        "status": "Beta",
+        "created_at": "2023-08-26T03:19:16.681Z",
+        "updated_at": "2023-08-26T04:47:14.257Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "bbd84754-179b-4307-ac29-51cd776a8534",
+        "name": "SuperApp",
+        "version": "3.0",
+        "status": "Development",
+        "created_at": "2023-08-26T04:38:36.382Z",
+        "updated_at": "2023-08-26T18:33:06.216Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "865dbedf-641b-410e-ae33-0bc46589d2c9",
+        "name": "CoolApp",
+        "version": "4.0",
+        "status": "Archived",
+        "created_at": "2023-08-26T11:03:51.450Z",
+        "updated_at": "2023-08-26T13:26:18.955Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "309f9ef9-cfb7-4c3b-a832-93fd23e59f7f",
+        "name": "FantasticApp",
+        "version": "5.0",
+        "status": "Cancelled",
+        "created_at": "2023-08-26T13:49:02.890Z",
+        "updated_at": "2023-08-26T18:35:23.392Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7c2ce38b-bf47-4813-aae7-2f0044fe1407",
+        "email": "Laverna73@hotmail.com",
+        "firstName": "Sigrid",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/818.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14d9bd2c-e967-4196-8f5f-813e5a0511a3",
+        "email": "Harmony_Bruen40@hotmail.com",
+        "firstName": "Alexandra",
+        "lastName": "Runte-Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dba58efd-28b1-4c99-83cc-01b7d2398c03",
+        "email": "Cristobal_Friesen20@yahoo.com",
+        "firstName": "Ebony",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/18.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da562aed-eb9a-420f-8d08-6c119f272e24",
+        "email": "Rudy.Schroeder53@yahoo.com",
+        "firstName": "Mara",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23475042",
+        "tenantId": null
+      },
+      {
+        "reference": "88aa5e66-15b3-433e-8be4-e1d7fa0f2932",
+        "email": "Kurtis36@hotmail.com",
+        "firstName": "Rosanna",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "b7bc10fd-6628-4a46-990f-9bc565abf0ee",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T23:53:54.000Z",
+        "subscription_end_date": "2023-08-26T06:50:52.652Z",
+        "created_at": "2023-08-26T22:35:27.898Z",
+        "updated_at": "2023-08-27T00:30:26.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6561ab0-7c53-44c6-977e-9191adde4dc1",
+        "subscription_type": "Premium",
+        "subscription_status": "Inactive",
+        "subscription_start_date": "2023-08-26T03:40:00.063Z",
+        "subscription_end_date": "2023-08-26T20:29:54.071Z",
+        "created_at": "2023-08-26T15:41:50.210Z",
+        "updated_at": "2023-08-26T10:02:45.212Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6a959f4-b521-4c38-99bf-4b5c539970ef",
+        "subscription_type": "Gold",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T03:08:07.179Z",
+        "subscription_end_date": "2023-08-26T04:13:42.684Z",
+        "created_at": "2023-08-26T12:50:51.354Z",
+        "updated_at": "2023-08-26T22:31:36.873Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af0f9793-ae41-4c83-b656-f40095dec6d9",
+        "subscription_type": "Platinum",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T17:53:52.657Z",
+        "subscription_end_date": "2023-08-26T16:47:35.251Z",
+        "created_at": "2023-08-26T13:12:03.142Z",
+        "updated_at": "2023-08-26T21:23:30.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c31eba7-c199-4087-aba1-99b2d58b3030",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-26T02:10:21.961Z",
+        "subscription_end_date": "2023-08-26T12:08:18.304Z",
+        "created_at": "2023-08-26T14:20:16.747Z",
+        "updated_at": "2023-08-26T18:13:42.288Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "44cb5302-0f5c-4809-87ff-de0c28659fe3",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T02:53:26.601Z",
+        "updated_at": "2023-08-26T08:32:05.957Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cd8c02c-2825-43b7-8934-8d3a6837faf2",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T11:59:50.315Z",
+        "updated_at": "2023-08-26T03:45:22.183Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32c90bd8-387d-40b9-9f8e-5445ec0d5d65",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-26T19:15:00.243Z",
+        "updated_at": "2023-08-27T00:26:26.091Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2abb6f61-11e1-49ce-8606-dad576bd2554",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T03:35:54.745Z",
+        "updated_at": "2023-08-26T12:48:15.084Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e52aa78-224e-4c9c-8757-6bfeab31f9b5",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T21:20:40.804Z",
+        "updated_at": "2023-08-26T14:59:51.576Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "aa8eefbb-65f6-4005-b18e-e4dad58690b7",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T18:40:37.052Z",
+        "updated_at": "2023-08-26T14:33:24.137Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c25634b-8c9b-401f-80dc-3ea98aa711fa",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-26T08:43:01.386Z",
+        "updated_at": "2023-08-26T14:06:59.577Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51ed6b67-831c-4d91-92d0-39c2ab08d3e8",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T20:32:48.047Z",
+        "updated_at": "2023-08-26T09:06:22.674Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b92b7a7-62df-431b-aaa6-547f8b84bc72",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T13:00:46.760Z",
+        "updated_at": "2023-08-26T18:42:54.635Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f6417f4-7883-4d47-9a58-d52d71303a06",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-27T01:09:39.256Z",
+        "updated_at": "2023-08-26T02:00:02.833Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "61979f78-932f-4046-b1e7-d27cd339f9a2",
+        "name": "App 1",
+        "version": "1.0",
+        "status": "Active",
+        "created_at": "2023-08-27T00:29:20.060Z",
+        "updated_at": "2023-08-26T07:37:17.193Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "5f6be845-c044-42ef-84e2-b6ed7de017c5",
+        "name": "App 2",
+        "version": "2.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T13:41:13.136Z",
+        "updated_at": "2023-08-26T13:23:41.651Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "2db40581-aaa5-44f6-9198-ebbd2a276403",
+        "name": "App 3",
+        "version": "3.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T08:12:55.379Z",
+        "updated_at": "2023-08-26T20:43:13.413Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "0827b3b8-b9f4-498b-8620-052dcea6b867",
+        "name": "App 4",
+        "version": "4.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T13:39:54.934Z",
+        "updated_at": "2023-08-26T07:02:43.011Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "97fd5988-a5eb-4b0c-8c2e-c2396d6276e3",
+        "name": "App 5",
+        "version": "5.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T09:54:07.295Z",
+        "updated_at": "2023-08-26T15:35:40.939Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b4c5a4d-13d5-4e79-bdeb-c4fc73e49981",
+        "email": "Olaf53@yahoo.com",
+        "firstName": "Marilie",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50294400",
+        "tenantId": null
+      },
+      {
+        "reference": "7ee9288d-96e1-48a0-aaae-77350bfa3839",
+        "email": "Consuelo10@yahoo.com",
+        "firstName": "Leo",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e050d77-da45-4c7e-aac3-5b8a5316e33d",
+        "email": "Maddison.Runolfsdottir@hotmail.com",
+        "firstName": "Raquel",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6100275",
+        "tenantId": null
+      },
+      {
+        "reference": "9ba8e44f-097f-44ee-b961-fef7a457729c",
+        "email": "Chelsea.Daniel28@hotmail.com",
+        "firstName": "Cletus",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aaee3b9a-e4d6-4aed-a713-1422d3e2e6c3",
+        "email": "Marcelle_Ratke78@hotmail.com",
+        "firstName": "Diego",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "subscriber": [
+      {
+        "id": "0b5561be-f62c-491b-be48-9233f2bc75df",
+        "subscription_type": "Basic",
+        "subscription_status": "Active",
+        "subscription_start_date": "2023-08-26T08:16:57.981Z",
+        "subscription_end_date": "2023-08-26T03:27:32.006Z",
+        "created_at": "2023-08-26T13:29:54.487Z",
+        "updated_at": "2023-08-26T08:39:39.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87eaa6e0-aaf4-4fec-b902-091cd9b5b7d6",
+        "subscription_type": "Premium",
+        "subscription_status": "Pending",
+        "subscription_start_date": "2023-08-26T22:45:37.239Z",
+        "subscription_end_date": "2023-08-26T22:22:57.352Z",
+        "created_at": "2023-08-26T17:15:16.903Z",
+        "updated_at": "2023-08-26T07:18:16.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76751f7e-c8ae-4bd6-aaf6-25a4f6245bb8",
+        "subscription_type": "Enterprise",
+        "subscription_status": "Cancelled",
+        "subscription_start_date": "2023-08-27T00:39:38.806Z",
+        "subscription_end_date": "2023-08-26T03:14:51.271Z",
+        "created_at": "2023-08-26T23:24:05.043Z",
+        "updated_at": "2023-08-26T08:05:06.639Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "785827b4-9ab8-4f06-9fa1-1f3f52fd48f7",
+        "subscription_type": "Pro",
+        "subscription_status": "Expired",
+        "subscription_start_date": "2023-08-26T06:04:00.090Z",
+        "subscription_end_date": "2023-08-26T06:02:56.311Z",
+        "created_at": "2023-08-26T23:58:05.963Z",
+        "updated_at": "2023-08-26T05:31:06.700Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ad9e414-03f1-4064-ae3a-49d3594ce5c9",
+        "subscription_type": "Starter",
+        "subscription_status": "Suspended",
+        "subscription_start_date": "2023-08-27T00:13:47.043Z",
+        "subscription_end_date": "2023-08-26T15:49:15.209Z",
+        "created_at": "2023-08-27T00:15:00.272Z",
+        "updated_at": "2023-08-26T21:45:34.416Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_developer": [
+      {
+        "id": "5ef1a9b6-4007-4502-a3db-59674e146a13",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-27T00:27:41.080Z",
+        "updated_at": "2023-08-26T23:35:45.095Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7fdd040-ca1b-4652-a153-649ef8fdb951",
+        "access_level": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-26T04:31:32.196Z",
+        "updated_at": "2023-08-26T14:43:41.989Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f9b2c35-2600-4a57-a2d1-ca789b006c19",
+        "access_level": "Tester",
+        "status": "Pending",
+        "created_at": "2023-08-27T01:09:22.234Z",
+        "updated_at": "2023-08-26T03:14:44.164Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "032348f8-1dda-4351-9bf0-ab6dfbb81dc0",
+        "access_level": "Support",
+        "status": "Blocked",
+        "created_at": "2023-08-26T08:39:22.468Z",
+        "updated_at": "2023-08-26T09:22:02.852Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c483338-e778-48b9-a4ed-3362ebb6f299",
+        "access_level": "Manager",
+        "status": "Suspended",
+        "created_at": "2023-08-26T03:54:37.580Z",
+        "updated_at": "2023-08-26T04:16:59.383Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app_administrator": [
+      {
+        "id": "5b510d52-201a-498c-bf2c-f65f3ee9e998",
+        "access_level": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-26T22:36:33.633Z",
+        "updated_at": "2023-08-26T19:23:53.493Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3936a761-fcd8-4d40-9b57-7f594217e8b3",
+        "access_level": "Moderator",
+        "status": "Inactive",
+        "created_at": "2023-08-27T01:08:02.817Z",
+        "updated_at": "2023-08-26T08:55:48.762Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6932bd1e-8e6f-43c1-966f-74eb9501cf79",
+        "access_level": "Editor",
+        "status": "Pending",
+        "created_at": "2023-08-26T18:24:41.290Z",
+        "updated_at": "2023-08-26T12:31:15.458Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82b27e43-7e94-4238-ba38-502a688365ac",
+        "access_level": "Viewer",
+        "status": "Blocked",
+        "created_at": "2023-08-26T13:09:40.301Z",
+        "updated_at": "2023-08-27T00:38:06.977Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e955a0b9-e1fd-4792-8a3a-1e79afcb2811",
+        "access_level": "Guest",
+        "status": "Suspended",
+        "created_at": "2023-08-26T15:49:34.110Z",
+        "updated_at": "2023-08-26T05:38:16.670Z",
+        "owner_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "app": [
+      {
+        "id": "cff76be5-879b-4bb4-a126-35a2826de9f4",
+        "name": "MyApp",
+        "version": "1.0.0",
+        "status": "Active",
+        "created_at": "2023-08-26T06:09:44.024Z",
+        "updated_at": "2023-08-26T22:14:24.527Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "f551498b-6400-4548-a26c-35f3c5a7b45e",
+        "name": "AwesomeApp",
+        "version": "2.0.0",
+        "status": "Inactive",
+        "created_at": "2023-08-26T19:13:37.583Z",
+        "updated_at": "2023-08-26T20:21:25.583Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "19643ba0-9026-46fb-9850-d464bc4c46dd",
+        "name": "SuperApp",
+        "version": "3.0.0",
+        "status": "Pending",
+        "created_at": "2023-08-26T04:24:27.707Z",
+        "updated_at": "2023-08-26T06:16:34.143Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "6845abc3-6397-4942-bdfc-bada14722e25",
+        "name": "BestApp",
+        "version": "4.0.0",
+        "status": "Blocked",
+        "created_at": "2023-08-26T14:31:10.293Z",
+        "updated_at": "2023-08-26T05:04:00.254Z",
+        "owner_id": "main_entity_pk"
+      },
+      {
+        "id": "247f7d17-3d80-42b8-b3e6-516b82e7a09f",
+        "name": "TopApp",
+        "version": "5.0.0",
+        "status": "Suspended",
+        "created_at": "2023-08-26T06:29:35.332Z",
+        "updated_at": "2023-08-26T03:53:48.945Z",
+        "owner_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d97943a-999e-42aa-b852-37e432b0704c",
+        "email": "Matteo93@gmail.com",
+        "firstName": "Jamar",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58921987",
+        "tenantId": null
+      },
+      {
+        "reference": "6975a5e9-3b3e-4a15-901e-ed5fce149ff1",
+        "email": "Lucas.Jast@yahoo.com",
+        "firstName": "Antonia",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "643c74ed-1c8d-4a40-ac4a-8a76072aeed6",
+        "email": "Savannah_Luettgen86@yahoo.com",
+        "firstName": "Gregory",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77025654",
+        "tenantId": null
+      },
+      {
+        "reference": "bc70dd32-ef0b-4f49-accb-477b2600074e",
+        "email": "Laurine_Trantow@gmail.com",
+        "firstName": "Merritt",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/620.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3f869f0-a93f-4347-91c6-35527d5b9766",
+        "email": "Helmer.White@hotmail.com",
+        "firstName": "Akeem",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
